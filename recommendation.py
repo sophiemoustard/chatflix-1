@@ -76,6 +76,9 @@ class Recommendation:
     def ask_question(self, user):
         random_number = randint (0, len(self.movies))
         print(random_number)
+        print("yo")
+        print(self.movies)
+        print("coucou")
         print(self.movies[random_number])
         return "Avez vous aimez le " + str(self.movies[random_number])
 
